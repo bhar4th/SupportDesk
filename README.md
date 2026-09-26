@@ -233,17 +233,7 @@ This is a portfolio application, not a hosted customer support service. It delib
 | `compose.yaml` | PostgreSQL, API, and web containers |
 | `.github/workflows/ci.yml` | API tests and frontend build |
 
-## Talking through the project
 
-Useful code-review questions:
-
-1. Why check both workspace membership and the ticket's workspace ID?
-2. Why can an authenticated request still receive `404`?
-3. How does the conditional SQL update prevent two editors from overwriting each other?
-4. What changes when moving from a local SQLite database to PostgreSQL?
-5. What would you add before making registration publicly accessible?
-
-Read and run the implementation before presenting it in an interview. Add your own improvements and describe the contribution you actually made.
 
 ## License
 
